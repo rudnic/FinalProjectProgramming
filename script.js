@@ -1,10 +1,12 @@
-function calculate(arg1, arg2, operation) {
+const express = require('express');
+const path = require('path');
 
-    if (operation == "+") {
-        return arg1 + arg2;
-    }
+var app = express();
 
-    if (operation == "-") {
-        return arg1 - arg2;
-    }
-}
+app.get('/', function (request, response) {
+    response.sendFile(path.join(__dirname, '/index.html'));
+});
+
+app.listen(3000);
+
+module.exports.app = app;

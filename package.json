@@ -1,0 +1,23 @@
+{
+  "name": "finalprojectprogramming",
+  "version": "1.0.0",
+  "description": "Итоговый проект по дисциплине \"Программирование 7 семестр\"",
+  "main": "script.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rudnic/FinalProjectProgramming.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rudnic/FinalProjectProgramming/issues"
+  },
+  "homepage": "https://github.com/rudnic/FinalProjectProgramming#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "expressjs": "^1.0.1"
+  }
+}

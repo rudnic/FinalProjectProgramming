@@ -12,10 +12,6 @@ app.get('/plus', (req, res) => {
     res.send(calculate(req.query.arg1, req.query.arg2, "+").toString())
 })
 
-// app.get('/', function (request, response) {
-//     response.sendFile(path.join(__dirname, '/index.html'));
-// });
-
 app.listen(3000);
 
 module.exports.app = app;
